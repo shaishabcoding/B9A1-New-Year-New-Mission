@@ -44,7 +44,7 @@ main {
   width: 60%;
   margin: 30px auto 0;
 }
-.hot-deal{
+.hot-deal {
   font-family: Inter;
   text-align: center;
   padding: 120px 0;
@@ -66,7 +66,59 @@ main {
   font-size: 40px;
   font-weight: 700;
 }
-.hot-deal img{
+.hot-deal img {
   width: 66%;
   margin-top: 40px;
+}
+.party {
+  height: auto;
+  aspect-ratio: 11/5;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(9, 9, 121, 0) 80%,
+      rgba(9, 9, 121, 0) 100%
+    ),
+    url("../images/Vectorrr.png") no-repeat;
+  background-size: contain;
+  background-position: center center;
+  border-radius: 16px;
+}
+.party {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 120px;
+  box-sizing: border-box;
+}
+.party img {
+  width: 70%;
+}
+.party-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+}
+.party-container {
+  width: 60%;
+}
+.party-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.join {
+  color: #fff;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  left: 30px;
+  top: 40px;
 }
