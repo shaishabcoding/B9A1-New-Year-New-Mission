@@ -44,3 +44,29 @@ main {
   width: 60%;
   margin: 30px auto 0;
 }
+.hot-deal{
+  font-family: Inter;
+  text-align: center;
+  padding: 120px 0;
+}
+.discount-rate {
+  color: #f00;
+  font-size: 68px;
+  font-weight: 700;
+  margin-bottom: 38px;
+}
+.discount-subtitle {
+  color: #f00;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.discount-title {
+  color: #070211;
+  font-size: 40px;
+  font-weight: 700;
+}
+.hot-deal img{
+  width: 66%;
+  margin-top: 40px;
+}
