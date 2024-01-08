@@ -161,6 +161,7 @@ p {
   color: white;
   font-weight: bold;
   margin-top: calc(100vw * 0.04);
+  font-size: calc(100vw * 0.013);
 }
 .portfolio-subtitle {
   color: #f00;
