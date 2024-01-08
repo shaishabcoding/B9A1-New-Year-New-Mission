@@ -226,6 +226,9 @@ p {
 }
 .subscribe form {
   margin-top: calc(100vw * 0.04);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .subscribe form * {
   display: inline;
@@ -238,7 +241,6 @@ p {
 }
 .subscribe form input {
   border-radius: 16px 0 0 16px;
-  margin-right: -4px;
 }
 .subscribe form button {
   border-radius: 0 16px 16px 0;
@@ -283,7 +285,7 @@ footer hr {
 }
 .copy-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   color: #fff;
   font-family: Inter;
   font-size: calc(100vw * 0.02);
@@ -295,9 +297,15 @@ footer hr {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: calc(100vw * 0.1);
+  gap: calc(100vw * 0.08);
   margin-bottom: calc(100vw * 0.1);
   box-sizing: border-box;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+.best-offers::-webkit-scrollbar {
+  display: none;
 }
 .offer-subtitle {
   color: #f00;
@@ -323,6 +331,9 @@ footer hr {
   height: calc(100vw * 0.38);
   box-sizing: border-box;
   aspect-ratio: 1;
+}
+.offer-img-container:hover {
+  padding: calc(100vw * 0.01);
 }
 .offer-img-container img {
   width: 100%;
@@ -377,11 +388,18 @@ footer hr {
   display: flex;
   align-items: center;
 }
+@keyframes hot-deal-img {
+  50% {
+    transform: translate(50%, 0) scale(1.1);
+    filter: saturate(80%);
+  }
+}
 .img-section1 img {
   position: absolute;
   left: -50%;
   transform: translate(50%, 0);
   width: 50%;
+  animation: hot-deal-img 1s infinite;
 }
 .img-section2 {
   background: #f00;
