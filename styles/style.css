@@ -291,7 +291,7 @@ footer hr {
   font-weight: 500;
   text-decoration: none;
 }
-/* bonus section hear */
+/* bonus section started*/
 .best-offers {
   display: flex;
   align-items: center;
@@ -331,6 +331,65 @@ footer hr {
   font-weight: 700;
   margin-bottom: 15px;
 }
-.offer-image{
+.offer-image {
   margin-top: 40px;
+}
+.holiday-deal {
+  margin: 120px 0;
+  text-align: center;
+}
+.holiday-subtitle {
+  color: #070211;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+}
+.holiday-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 60px;
+  font-weight: 900;
+  margin: 15px auto 25px;
+}
+.holiday-description{
+  width: 80%;
+  margin:  0 auto;
+}
+.holiday-deal-img-container{
+  position: relative;
+  margin-top: 60px;
+  overflow: hidden;
+}
+.img-section1{
+  position: relative;
+  background: url("../images/Rectangle\ 1.png");
+  aspect-ratio: 1;
+  width: 40%;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 16px 16px 0 0;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+
+}
+.img-section1 img{
+  position: absolute;
+  left: -50%;
+  transform: translate(50%,0);
+  width: 50%;
+}
+.img-section2{
+  background: #f00;
+  border-radius: 16px;
+  border-top-right-radius: 0;
+  aspect-ratio: 1320/230;
+  position: relative;
+  overflow: visible;
+}
+.img-section2 img{
+  position: absolute;
+  top: -200%;
+  left: 0;
+  width: 50%;
 }
